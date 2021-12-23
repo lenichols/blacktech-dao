@@ -1,4 +1,4 @@
-# Black Tech DAO with just Javascript
+# BlackTech DAO
 
 ### **Welcome 👋**
 To get started with this course, clone this repo and follow these commands:
