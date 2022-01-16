@@ -182,7 +182,7 @@ const App = () => {
   if (!address) {
     return (
       <div className="landing">
-        <img src={Logo} width="300" style={{'margin': 'auto auto'}} />
+        <img src={Logo} width="300" style={{'margin': 'auto auto'}} alt={'Logo'} />
         <br />
         <br />
         <button onClick={() => connectWallet("injected")} className="btn-hero">
@@ -197,7 +197,7 @@ const App = () => {
   if (hasClaimedNFT) {
     return (
       <div className="member-page">
-        <img src={Logo} width="300" style={{'margin': 'auto auto'}} />
+        <img src={Logo} width="300" style={{'margin': 'auto auto'}} alt={'Logo'} />
         <br />
         <hr width="100%" />
         <p>Thank You for being a Valued Member!</p>
@@ -356,7 +356,7 @@ const App = () => {
   // Render mint nft screen.
   return (
     <div className="mint-nft">
-        <img src={Logo} width="300" style={{'margin': 'auto auto'}} />
+        <img src={Logo} width="300" style={{'margin': 'auto auto'}} alt={'Logo'} />
         <br />
         <hr width="100%" />
         <h1>Mint your free BlackTech DAO ($BIT) Membership NFT</h1>
