@@ -1,11 +1,9 @@
 import { useEffect, useMemo, useState } from "react";
-
 import { useWeb3 } from "@3rdweb/hooks";
 import { ThirdwebSDK } from "@3rdweb/sdk";
 import { ethers } from "ethers";
 import { UnsupportedChainIdError } from "@web3-react/core";
 import Logo from "./assets/btd-logo.png";
-
 
 const sdk = new ThirdwebSDK("rinkeby");
 
